@@ -1,0 +1,35 @@
+
+.card{
+    background-image: linear-gradient(#E6EDF9, #9DE5FF);
+    width: 300px;
+    padding: 40px;
+    height: 180px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px gray;
+    
+}
+.Target-card{
+       width: 1260px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       margin: 48px auto;
+}
+
+@media screen and (max-width: 992px) {
+    .Target-card{
+        width: 100%;
+        gap: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+    .Target-card{
+       width: 100%;
+       flex-direction: column;
+       gap: 30px;
+       
+    }
+
+}

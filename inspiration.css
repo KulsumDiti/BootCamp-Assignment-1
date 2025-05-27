@@ -1,7 +1,58 @@
 
-.vedio{
+.vedio-container{
     width: 1100px;
-    margin: 0 auto;
+    margin: 88px auto;
     border: 1px solid grey;
     border-radius: 15px;
+}
+.vedio{
+    
+    width: 1010px;
+    height: 560px;
+    border-radius: 15px;
+    margin: 30px auto;
+    
+}
+.vedio iframe{
+    border-radius: 15px;
+}
+
+         /* ....Responsive.... */
+
+                /* ..Tablet device.. */
+
+
+ @media screen and (max-width: 992px) {
+  
+      .vedio{
+        width: 100%;
+        
+      }
+      .vedio iframe{
+        width: 100%;
+      }
+    .vedio-container{
+      width: 100%;
+    
+}
+  
+}
+
+                /* ....Mobile-Device.... */
+@media screen and (max-width: 576px) {
+   .vedio{
+    width: 100%;
+    
+   }
+   .vedio iframe{
+    width: 100%;
+
+   }
+  .heading-text h1{
+    font-size: 25px;
+  }
+  .vedio-container{
+      border: none;
+  
+}
 }

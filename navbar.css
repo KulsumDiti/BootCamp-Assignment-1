@@ -32,7 +32,7 @@ body{
     font-size: 18px;
     font-weight: 600;
     border: none;
-    box-shadow: 4px 4px gray;
+    box-shadow: 4px 4px 4px 4px gray;
 }
 
 .btn:hover{
@@ -63,7 +63,7 @@ body{
     font-size: 18px;
     font-weight: 600;
     border: none;
-    box-shadow: 4px 4px gray;
+    box-shadow: 4px 4px 4px 4px gray;
    }
 
 .btn:hover{
@@ -86,7 +86,7 @@ body{
     font-size: 15px;
     font-weight: 600;
     border: none;
-    box-shadow: 4px 4px gray;
+    box-shadow: 4px 4px 4px 4px gray;
 }
 
 .btn:hover{
