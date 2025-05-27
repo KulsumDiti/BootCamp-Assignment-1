@@ -1,0 +1,57 @@
+
+.deve-area{
+    width: 1260px;
+    margin: 0 auto;
+    margin-top: 88px;
+}
+
+.heading-text{
+    text-align: center;
+}
+.heading-text h1{
+    font-size: 32px;
+    font-weight: bold;
+    
+}
+.heading-text p{
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.development-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E6EDF9;
+    padding: 30px;
+    border-radius: 15px;
+    
+}
+
+                
+                 /* ....Responsive.... */
+
+                /* ..Tablet device.. */
+
+
+ @media screen and (max-width: 992px) {
+  
+  .deve-area{
+    width: 100%;
+  }
+  
+}
+
+                /* ....Mobile-Device.... */
+@media screen and (max-width: 576px) {
+    .deve-area{
+    width: 100%;
+  }
+  .development-banner{
+     flex-direction: column-reverse;
+  }
+  .heading-text h1{
+    font-size: 25px;
+  }
+}
+
